@@ -1,8 +1,15 @@
 # Deepfake Video Preprocessing
+What is Video Preprocessing?
+A systematic process for preparing video data for deepfake detection. This method involves several steps to transform raw videos into a standard format suitable for computer analysis.
 
-A modular video preprocessing pipeline designed for preparing video data for deepfake detection tasks.
-This pipeline extracts frames from videos, detects and crops faces, applies grayscale and resizing transformations,
-and includes temporal and compression artifact visualizations.
+The key stages of this process are:
+
+1. Frame Separation: Dividing videos into individual image snapshots.
+2. Face Identification and Isolation: Automatically locating and extracting face regions from each snapshot.
+3. Grayscale Conversion and Size Standardization: Converting facial images to black and white and adjusting them to a uniform size.
+4. Visual Representation of Motion and Compression Issues: Generating visual aids to understand movement within the video and distortions caused by video saving methods.
+   
+The purpose of this structured preparation is to extract relevant visual and motion details, while making sure all video data is consistent. This helps improve the accuracy and reliability of computer systems designed to detect deepfake videos.
 
 ---
 
@@ -14,7 +21,7 @@ This project supports the preprocessing of deepfake datasets such as FaceForensi
 - Converting face crops to grayscale
 - Resizing face images to a uniform input size
 - Generating plots to analyze temporal inconsistencies and compression artifacts
-- 
+  
 ---
 
 # Project Structure
