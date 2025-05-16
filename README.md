@@ -19,12 +19,19 @@ This project supports the preprocessing of deepfake datasets such as FaceForensi
 
 # Project Structure
 ├── faces/ # Cropped face images
+
 ├── faces_grayscale/ # Grayscale face images
+
 ├── faces_resized/ # Resized face images 
+
 ├── frames/ # Raw extracted video frames
+
 ├── graphs/ # Temporal and compression artifact plots
+
 ├── main.ipynb # Full Colab notebook with processing pipeline
+
 ├── requirements.txt # Required Python packages
+
 └── README.md # Project documentation
 
 # How to Use It
