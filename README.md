@@ -59,7 +59,7 @@ Frames, faces, grayscale faces, temporal Inconsistencies and compression artifac
 | `dlib`          | Face detection and landmark extraction                          |
 | `imutils`       | Convenience functions for resizing, rotating, drawing on images |
 | `scikit-image`  | (Optional) Additional image processing, e.g., FFT or filters    |
-| `tqdm`          | Progress bars for loops (e.g., processing videos or frames)     |
+
 
 # Using the requirements.txt
 pip install -r requirements.txt
